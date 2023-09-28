@@ -1,0 +1,11 @@
+secrets.yaml
+
+# 모든 파일을 무시                     : file.c
+# 최상위 폴더의 해당 파일만 무시        : /file.c
+# 모든 .c 확장자 파일                  : *.c
+# .c확장자이지만 무시하지 않을 파일      : !not_ignore_this.c
+# 해당 이름의 파일 또는 폴더와 그 내용들 : logs
+# 해당 이름의 폴더와 그 내용들          : logs/
+# 폴더와 파일 이름을 ㄹ같이 입력하면 특정 폴더의 파일만 무시 : logs/debug.log
+# logs 폴더 안의 debug.log와 .c 파일들 : logs/*.c
+# logs 폴더 하위에 있는 모든 폴더의 .c 확장자 파일 : logs/**/*.c
